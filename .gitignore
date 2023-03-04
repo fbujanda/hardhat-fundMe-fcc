@@ -4,6 +4,7 @@ node_modules
 coverage
 coverage.json
 typechain
+yarn-error.log
 
 # vscode
 .vscode
@@ -14,6 +15,9 @@ artifacts
 .DS_Store
 gas-report.txt
 deployments
-
+# Solidity files
+contracts/FunWithStorage.sol
+deploy/99-deploy-storage-fun.js
+test/staging/FundMe.staging.test.jsin
 # Patrick
 .notes.md
